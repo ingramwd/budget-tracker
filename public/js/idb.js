@@ -1,5 +1,5 @@
 let db;
-const request = indexedDB.open('_tacker', 1);
+const request = indexedDB.open('budget_tacker', 1);
 
 request.onupgradeneeded = function (event) {
     const db = event.target.result;
